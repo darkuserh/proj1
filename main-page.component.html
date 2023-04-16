@@ -1,0 +1,11 @@
+
+
+<app-todo [todos]="todos"></app-todo>
+<div *ngFor="let todo of todos">
+  <section class="example-section">
+    <mat-checkbox class="example-margin" color="primary">
+      </mat-checkbox>
+      <span>{{todo}}</span>
+  </section>
+
+</div>
